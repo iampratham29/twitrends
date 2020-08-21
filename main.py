@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 import pandas as pd
-cd='C:/Users/Prathmesh/Downloads/chromedriver_win32/chromedriver.exe'
+cd='chromedriver.exe'
 browser=webdriver.Chrome(cd)
 
 browser.get('https://twitter.com/explore/tabs/trending')
